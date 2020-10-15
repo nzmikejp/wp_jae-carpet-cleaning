@@ -1,0 +1,191 @@
+
+@import "variables";
+@import "mixins";
+@import "typography";
+@import "sections";
+@import "buttons";
+@import "navigations";
+@import "components";
+@import "features.scss";
+@import "pricing.scss";
+@import "cards.scss";
+@import "blog.scss";
+@import "progress-bars.scss";
+@import "sliders.scss";
+@import "forms.scss";
+@import "labels-badges-alerts.scss";
+@import "portfolio.scss";
+@import "table.scss";
+@import "accordions.scss";
+@import "responsive.scss";
+
+
+/* Custom CSS */
+body {
+    color: $text-color;
+    background: $body-bg;
+    font-family: $primary-font;
+    font-weight: $regular;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: $letter-spacing;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+img{
+  width: 100%;
+}
+.page-header{
+	font-size: 30px;
+	font-weight: $bold;
+	border: none;
+	padding-top: 50px;
+	text-transform: uppercase;
+	margin: 0 0 20px 0;
+}
+
+//--- Header Logo ---//
+.navbar-brand {
+  img {
+    width: 50%;
+  }
+}
+
+.wrapper {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.youtube {
+  &:hover {
+    background-color: red!important;
+  }
+}
+
+//--- Copyright Text ---//
+.copyright {
+  font-size: 0.7em;
+  line-height: 1.5;
+}
+
+//--- Footer Links ---//
+.footer-links {
+  a {
+    font-size: 0.8em;
+  }
+}
+
+.nav-link {
+  padding: 0.5em 1em!important;
+}
+
+.btn-outline-red {
+  border: 0.1em red solid;
+
+  &:hover {
+    background-color: $primary;
+    color: white!important;
+  }
+}
+
+.services {
+  padding-bottom: 5em;
+  
+  h3 {
+    font-size: 2.5em;
+  }
+}
+
+.coverage {
+  background-color: $primary;
+  padding: 5em 0;
+
+  
+  h3, p {
+    color: white;
+  }
+
+  h3 {
+    font-size: 2.5em;
+  }
+}
+
+.btn-blue {
+  background-color: $info;
+
+  &:hover {
+    background-color: $info-hover;
+    color: $white!important;
+    box-shadow: 0 0.5em 0.5em rgba(0,0,0,0.1);
+  }
+}
+
+.btn-red {
+  background-color: $primary;
+  color: white!important;
+
+  &:hover {
+    background-color: $primary-hover;
+    color: $white!important;
+    box-shadow: 0 0.5em 0.5em rgba(0,0,0,0.1);
+  }
+}
+
+.companies {
+  padding: 5em 0;
+
+  img {
+    display: block;
+    width: 10em;
+    margin: auto;
+  }
+}
+
+.carousel-indicators {
+  li {
+    border-radius: 50%!important;
+    width: 0.8rem!important;
+    height: 0.8rem!important;
+  }
+}
+
+.service-icon {
+  flex: 0 0 5em;
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+
+.service-content {
+  padding-left: 1em!important;
+
+  h4 a {
+    font-size: 1.3rem;
+  }
+
+  a {
+    color: $primary!important;
+    cursor: pointer;
+
+    &:hover {
+      color: $primary-hover!important;
+    }
+  }
+}

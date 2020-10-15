@@ -1,0 +1,50 @@
+// Font and Styles
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand:wght@400;600&display=swap');
+$primary-font: 'Open Sans', sans-serif;
+$bold-font: 'Quicksand', sans-serif;
+$regular: 400;
+$bold: 600;
+$light: 300;
+$letter-spacing: 0px;
+
+// Theme Colors
+$preset: #F4192F;
+$preset-hover: #ff2d42;
+$primary: #F4192F;
+$primary-hover: #ff2d42;
+$success: #87c056;
+$success-hover: #74a44a;
+$info: #00AEEC;
+$info-hover: #428fc4;
+$warning: #ffcc66;
+$warning-hover: #e1b459;
+$danger: #ec7160;
+$danger-hover: #cd6254;
+$title-color: #444;
+$sub-title-color: #999;
+$text-color: #444;
+$bg-color: #f7f7f7;
+$dark-bg-color: #222;
+$body-bg: #ffffff;
+$white: #fff;
+$light-grey: #ddd;
+$grey: #ccc;
+$dark-grey: #333;
+$black: #000;
+$preset-transparent: RGBA(235, 88, 111, 0.7);
+
+// Social Colors
+
+$facebook: #4e68a1;
+$facebook-hover: #3b4f7a;
+$twitter: #65b5f2;
+$twitter-hover: #5294c6;
+$google: #e05d4b;
+$google-hover: #b94c3d;
+$linkedin: #2083bc;
+$linkedin-hover: #186592;
+$pinterest: #d2373b;
+$pinterest-hover: #ad2c2f;
+$dribbble: #ec5f94;
+$dribbble-hover: #b4446e;
+$youtube-hover: #ff0000;
