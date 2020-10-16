@@ -3182,19 +3182,25 @@ nav#menu span.fa.fa-bars:hover {
   text-shadow: none;
 }
 
+#carousel-area .carousel-item .carousel-caption h1,
+#carousel-area .carousel-item .carousel-caption h2,
+#carousel-area .carousel-item .carousel-caption h3,
+#carousel-area .carousel-item .carousel-caption h4,
 #carousel-area .carousel-item .carousel-caption h5 {
-  color: #fff;
+  color: #fff !important;
+}
+
+#carousel-area .carousel-item .carousel-caption h5 {
   line-height: 24px;
   font-weight: 400;
   margin-bottom: 30px;
   font-size: 16px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 #carousel-area .carousel-item .carousel-caption h3 {
   font-size: 50px;
   margin-bottom: 15px;
-  color: #fff;
   font-weight: 700;
 }
 
