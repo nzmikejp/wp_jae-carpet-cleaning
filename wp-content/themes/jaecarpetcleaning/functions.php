@@ -18,6 +18,22 @@ function register_resource() {
         'menu_icon' => 'dashicons-awards'
     );
     register_post_type( 'service', $args );
+    
+    //--- Jumbotron Coverage ---//
+    $args = array(
+        'public'    => true,
+        'label'     => 'Hero Message',
+        'menu_icon' => 'dashicons-awards'
+    );
+    register_post_type( 'jumbotron', $args );
+   
+    //--- Jumbotron Brands ---//
+    $args = array(
+        'public'    => true,
+        'label'     => 'Hero Brands',
+        'menu_icon' => 'dashicons-awards'
+    );
+    register_post_type( 'jumbotron-brand', $args );
 
 }
 add_action( 'init', 'register_resource' );

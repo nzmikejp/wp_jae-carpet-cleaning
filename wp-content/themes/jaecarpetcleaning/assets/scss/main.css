@@ -5151,4 +5151,9 @@ main {
 .service .single-service-image img {
   border-radius: 0.5em;
 }
+
+.shadow-inset {
+  -webkit-box-shadow: inset 0 0.5em 0.5em rgba(0, 0, 0, 0.1) !important;
+          box-shadow: inset 0 0.5em 0.5em rgba(0, 0, 0, 0.1) !important;
+}
 /*# sourceMappingURL=main.css.map */

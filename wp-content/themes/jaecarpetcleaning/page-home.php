@@ -15,6 +15,11 @@
         </section>
 
         <?php get_template_part('services')?>
+
+        <?php get_template_part('jumbotron-coverage')?>
+        
+        <?php get_template_part('jumbotron-brands')?>
+
     </main>
 
 <?php get_footer()?>
