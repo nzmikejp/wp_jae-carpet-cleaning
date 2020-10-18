@@ -3,13 +3,21 @@
 function register_resource() {
     register_nav_menu('main-menu', 'Main Menu');
 
-    //--- Slider
+    //--- Slider ---//
     $args = array(
         'public'    => true,
         'label'     => 'Slider',
         'menu_icon' => 'dashicons-format-gallery'
     );
     register_post_type( 'slide', $args );
+    
+    //--- Services ---//
+    $args = array(
+        'public'    => true,
+        'label'     => 'Services',
+        'menu_icon' => 'dashicons-awards'
+    );
+    register_post_type( 'service', $args );
 
 }
 add_action( 'init', 'register_resource' );
@@ -30,5 +38,6 @@ function add_class_to_anchors( $atts ) {
     return $atts;
 }
 add_filter( 'nav_menu_link_attributes', 'add_class_to_anchors', 10 );
+
 
 ?>

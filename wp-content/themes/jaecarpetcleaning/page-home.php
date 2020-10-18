@@ -13,6 +13,8 @@
                 ?>        
             </div>
         </section>
+
+        <?php get_template_part('services')?>
     </main>
 
 <?php get_footer()?>

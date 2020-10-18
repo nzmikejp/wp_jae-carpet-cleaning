@@ -1,10 +1,9 @@
 <?php 
     global $active_class;
     $link = get_field('url');
-    print_r($link);
 ?>
 
-<div class="carousel-item active">
+<div class="carousel-item <?php echo $active_class?>">
     <img src="<?php the_field('background_image')?>" alt="">
     <div class="carousel-caption">
         <h3 class="slide-title animated fadeInDown"><?php the_title()?></h3>

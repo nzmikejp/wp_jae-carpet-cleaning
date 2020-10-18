@@ -38,7 +38,7 @@
   <div class="wrapper">
 
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-default">
+      <nav class="navbar navbar-expand-lg navbar-light bg-default shadow-sm">
         <div class="container">
           <a class="navbar-brand" href="index.html"><img src="<?php echo get_template_directory_uri() ?>/assets/images/5dd602bc8990fd36a50d20e5_JAE-Carpet-Cleaner-Logo.svg" alt=""></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-expanded="false" aria-label="Toggle navigation">

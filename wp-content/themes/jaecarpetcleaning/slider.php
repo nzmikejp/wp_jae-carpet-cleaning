@@ -1,4 +1,4 @@
-<section class="slider shadow">
+<section class="slider shadow d-none d-md-block">
             <div id="content pb-0">
                 <div id="sliders">
                     <div class="full-width">
