@@ -5156,4 +5156,17 @@ main {
   -webkit-box-shadow: inset 0 0.5em 0.5em rgba(0, 0, 0, 0.1) !important;
           box-shadow: inset 0 0.5em 0.5em rgba(0, 0, 0, 0.1) !important;
 }
+
+.location-content a {
+  display: block;
+  margin-bottom: 0.3em;
+}
+
+.location-content .icon {
+  margin-right: 0.5em;
+}
+
+#location .row > div {
+  display: none;
+}
 /*# sourceMappingURL=main.css.map */

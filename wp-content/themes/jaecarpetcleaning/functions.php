@@ -34,6 +34,23 @@ function register_resource() {
         'menu_icon' => 'dashicons-awards'
     );
     register_post_type( 'jumbotron-brand', $args );
+    
+    //--- Locations ---//
+    $args = array(
+        'public'    => true,
+        'label'     => 'Locations',
+        'menu_icon' => 'dashicons-admin-site-alt3'
+    );
+    register_post_type( 'location', $args );
+
+    //--- Custom Taxonomy ---//
+    $args = array(
+        'label'        => 'Type',
+        'public'       => true,
+        'hierarchical' => true,
+        'show_in_nav_menus' => true,
+    );
+    register_taxonomy( 'type', 'location', $args );
 
 }
 add_action( 'init', 'register_resource' );
